@@ -1,0 +1,397 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.logo{
+  margin-top: 0;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+.details{
+  width: 100%;
+  height: 90.3vh;
+  background-image: url(/images/back-image.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+.content h2{
+  color: white;
+  font-size: 3em;
+  padding-top: 100px;
+  margin-left: 100px;
+  font-weight: 700;
+}
+.content button{
+  margin-left: 100px;
+  width: 600px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 1.3em;
+  border-style: none;
+  color: white;
+  background-color: rgb(227, 43, 43);
+}
+.content button:hover{
+  background-color: rgb(247, 25, 25);
+}
+.list{
+  list-style-type: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-left: 60px;
+}
+.list li{
+  padding-top: 20px;
+}
+.list li img{
+  padding-right: 20px;
+  width: 25px;
+}
+.content-image{
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+
+
+.form-container{
+  width: 100%;
+  height: 105vh;
+  padding-top: 40px;
+  background-image: url(/images/back-image1.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.submit-form{
+    width: 520px;
+    height: 720px;
+    background-color: white;
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit-form form input{
+  width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 1em; 
+}
+.submit-form form input:hover{
+  box-shadow: 0px 0px 20px #eee;
+}
+.submit-form form label{
+  font-size: 1.1em;
+}
+.radio-div{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.submit-form form #fresh{
+    width: 20px;
+}
+.submit-form form #exp{
+  width: 20px;
+}
+.submit-form button{
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(227, 43, 43);
+  border-style: none;
+  color: white;
+  font-size: 1.2em;
+}
+.submit-form button:hover{
+  background-color: rgb(247, 25, 25);
+}
+
+
+
+.box-container2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction:column;
+  padding: 0px;
+}
+.div-head{
+  display: flex;
+  flex-direction: row;
+}
+.box-container2 pre{
+   margin-top: 0;
+   margin-left: 430px;
+   font-size: 1.3em;
+}
+.box-container2 pre span{
+  color: red;
+}
+.list-detail{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.list-detail ul{
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+.list-detail ul li{
+  padding-top: 40px;
+}
+.list-detail ul li img{
+  padding-right: 20px;
+}
+.box-container2 div button{
+  margin-top: 60px;
+  margin-left: 600px;
+  width: 200px;
+  height: 40px;
+  border-style: none;
+  background-color: rgb(227, 43, 43); 
+  font-size: 1.2em;
+  color: white;
+}
+.box-container2 div button:hover{
+  background-color: rgb(247, 25, 25);
+}
+
+
+
+
+.box-container3{
+  width: 100%;
+  height: 70vh;
+  background-color: black;
+  color: white;
+ 
+}
+.box-container3 h1{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size:3em;
+}
+.box-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 40px;
+}
+.box1{
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  color: black;
+  width: 520px;
+  height: 120px;
+  padding: 10px;
+}
+.box1 img{
+  height: 90px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.box-details1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+
+
+
+.box-container4{
+  width: 100%;
+  height: 60vh;
+}
+.box-container4 h1{
+  text-align: center;
+}
+.secret-box{
+  margin-left: 100px;
+  margin-top:50px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.secret-box1{
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 20px #eee;
+}
+.secret-box1 img{
+  border-radius: 10px;
+}
+.secret-box1 h3{
+  
+  color: red;
+  font-weight: 800;
+  font-size: 1.4em;
+}
+.box-container4 button{
+  margin-top: 40px;
+  margin-left: 600px;
+  width: 300px;
+  height: 40px;
+  border-style: none;
+  background-color: rgb(227, 43, 43); 
+  font-size: 1.2em;
+  color: white;
+}
+.box-container4 button:hover{
+  background-color: rgb(247, 25, 25);
+}
+
+
+
+
+.box-container5{
+  width: 100%;
+  height: 50vh;
+  background-image: url(/images/back-image5.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box-container5 h1{
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+.box-count{
+  padding-left: 170px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.box-count .count1{
+  background-color: white;
+  text-align: center;
+  width: 250px;
+  height: 180px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.count1 h1{
+  color: red;
+}
+
+
+
+
+.box-container6{
+  width: 100%;
+  height: 100vh;
+}
+.box-container6 h1{
+  text-align: center;
+}
+.scroll-content{
+  width: 90%;
+  height: 70%;
+  background-color: rgb(159, 18, 18);
+  margin-top: 40px;
+  margin-left: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction:row;
+  gap: 20px;
+  border-radius: 10px;
+  overflow-x:scroll;
+  overflow-y: hidden;
+}
+.scroll-bar1{
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+ /* box-shadow: 10px 10px 5px rgba(219, 218, 218, 0.5);*/
+}
+.ratings-section{
+  display: flex;
+  flex-direction:row;
+}
+.ratings-section .profile{
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: rgb(189, 48, 5);
+}
+.ratings-section .profile h4{
+  text-align: center;
+  margin-top: 12px;
+  color: white;
+}
+.pro-name {
+  margin-left: 20px;
+}
+.ratings-section img{
+  padding: 10px;
+  width: 120px;
+  height: 40px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.review-section{
+  padding: 20px;
+}
+.review-section p{
+  font-size: 1.1em;
+}
+
+
+
+
+
+.footer{
+  width: 100%;
+  height: 180px;
+  background-color: black;
+  text-align: center;
+}
+.footer img{
+  color: black;
+  margin-top: 20px;
+}
+.foot-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  color: white;
+  border: none;
+  border-top: 1px solid #333232; 
+}
